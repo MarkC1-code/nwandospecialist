@@ -141,7 +141,7 @@ function Imgcomp() {
                             </div >
                         )}
                 </aside>
-                <aside  className=' grid grid-cols-1  xl:flex sm:hidden xs:hidden md:block'>
+                <aside  className=' grid grid-cols-1   xl:flex sm:hidden xs:hidden md:hidden'>
                     <Count />
                 </aside>
             </section>
