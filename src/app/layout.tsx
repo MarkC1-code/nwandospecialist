@@ -6,6 +6,7 @@ import Foot from '@/reuseComps/footer/page'
 
 export const metadata: Metadata = {
   title: "Nwando Spetialist Hospital",
+
   description: "Modernized approach to orthopedic cases in Nigeria.",
 };
 

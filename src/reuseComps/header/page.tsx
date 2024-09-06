@@ -26,7 +26,7 @@ export default function Page() {
                 </h1>
             </Link>
             <div>  
-                <ul className='lg:flex xl:flex sm:hidden xs:hidden md:hidden'>
+                <ul className=' sm:hidden md:hidden lg:flex xl:flex xs:hidden'>
                     <Link href='services' className=' mt-[2.5rem] border-r-[1px]  border-green-600  font-bold  h-[2rem] py-0 px-[1rem] mr-[.1rem] ml-[.1rem]'>Services</Link>
                     <Link className='mt-[2.5rem] border-r-[1px] font-bold  border-green-600  h-[2rem] py-0 px-[1rem] mr-[.1rem] ml-[.1rem]' href='about'>About</Link>
                     <Link href='team' className=' mt-[2.5rem] border-r-[1px] border-green-600 font-bold h-[2rem] py-0 px-[1rem] mr-[.1rem] ml-[.1rem]'>Team</Link>
