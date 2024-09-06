@@ -1,0 +1,125 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
+
+.kok{
+    margin-top: 1rem;
+    height: 80vh;
+    background-color:black;
+    color: white;
+    width: 97%;
+    box-shadow: 1px 1px 1rem rgba(142, 142, 143, 0.747);
+}
+
+.forrm{
+    box-shadow: 1px 1px 1rem rgba(142, 142, 143, 0.747);
+}
+
+.img2{
+    height: 30VH;
+        width: 100% ;
+        padding: 0 .1rem;
+        
+}
+img {
+    height: 20%;
+   
+}
+
+.VARIMG{
+    height: 39.6VH;
+    width: 100%;
+    padding: 0 .1rem;
+}
+.shad {
+    box-shadow: 1px -30px  1rem rgba(29, 26, 11);
+}
+.shadi {
+    box-shadow: -10px  30px  4rem rgba(29, 26, 11);
+}
+
+h4{
+    color: black;
+    margin-top: 2.5rem;
+    margin-left: 2rem;
+    margin-bottom: 2rem;
+    letter-spacing: 1px;
+    color: rgb(189, 187, 187);
+}
+button{
+    padding: .5rem;
+}
+
+button:hover{
+    cursor: pointer;
+}
+.imgandtext{
+    color: black;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    color: rgb(218, 214, 214);
+    font-weight: lighter;
+}
+.chia{
+    background: rgb(196, 234, 235);
+    color: white;
+}
+h2{
+    color: black;
+    font-weight: 900;
+    font-size: 21px;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+
+}
+.it{
+    display: flex;
+    width: 52.5rem;
+}
+
+.goo{
+    display: flex;
+    width: 840px;
+    background-color: black;
+        color: white;
+    justify-content: space-around;
+
+}
+.bil{
+    background: rgb(69, 122, 221);
+    color: white;
+    border: none;
+    border-radius: .2rem;
+}
+.btnandtext{
+    padding-top: 2rem;
+    padding-left: 2rem;
+}
+
+@keyframes heartbeat {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+}
+
+.animate-heartbeat {
+    animation: heartbeat 1.5s infinite;
+}
+
+.spinner-border {
+    border-color: transparent;
+    border-top-color: currentColor;
+}
